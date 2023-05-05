@@ -196,6 +196,9 @@ vim.o.hlsearch = false
 -- Make line numbers default
 vim.wo.number = true
 
+-- Make relative numbers default
+vim.wo.relativenumber = true
+
 -- Enable mouse mode
 vim.o.mouse = 'a'
 
@@ -227,6 +230,18 @@ vim.o.completeopt = 'menuone,noselect'
 
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
+
+-- Set scroll offset to 8 lines
+vim.o.scrolloff = 8
+
+-- Set auto indent
+vim.o.shiftwidth = 4
+
+-- Set expand tab
+vim.o.expandtab = true;
+
+-- Make smart indent default
+vim.o.smartindent = true;
 
 -- [[ Basic Keymaps ]]
 
